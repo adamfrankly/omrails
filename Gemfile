@@ -17,6 +17,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'devise'
+gem 'activeadmin', '~> 1.0.0.pre5'
+gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
 
 group :development, :test do
   gem 'byebug', platform: :mri
